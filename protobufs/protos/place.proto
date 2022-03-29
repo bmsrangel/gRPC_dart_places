@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+message PlaceModel {
+    int32 id = 1;
+    string name = 2;
+    string city = 3;
+    string state = 4;
+}
+
+service Places {
+    rpc getAllPlaces(GetAllPlacesRequest) returns (GetAllPlacesResponse);
+    rpc createPlace(CreatePlaceRequest) returns (CreatePlaceResponse);
+}
+
+message GetAllPlacesRequest {}
+// message Void {}
+
+message GetAllPlacesResponse {
+    repeated PlaceModel places = 1;
+}
+
+message CreatePlaceRequest {
+    string name = 1;
+    string city = 2;
+    string state = 3;
+}
+
+message CreatePlaceResponse {
+    PlaceModel place = 1;
+}
