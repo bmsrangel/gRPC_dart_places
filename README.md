@@ -1,6 +1,6 @@
 # gRPC: Definições e uso com o Dart
 
-Este repositório possui o código fonte referente ao vídeo em que falamos sobre o gRPC e sua utilização com o Dart. O vídeo pode ser acessado a partir deste [link](https://github.com/bmsrangel/gRPC_dart_places)
+Este repositório possui o código fonte referente ao vídeo em que falamos sobre o gRPC e sua utilização com o Dart. O vídeo pode ser acessado a partir deste [link](https://youtu.be/RJ67P6aEekc)
 
 ## Proposta do projeto
 
